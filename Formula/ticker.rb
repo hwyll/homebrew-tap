@@ -11,7 +11,7 @@ class Ticker < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/hwyll/ticker/releases/download/v0.0.1/ticker-0.0.1-mac-amd64.tar.gz"
-    sha256 "8f56f0c8caa7dbb2f477a01ded955d9681c88b6f7c9c4b1305b986dc0566bb01"
+    sha256 "a5b12ef65fe1443c0942bb1769e0da4cc70f8c9a78a9394825dd8fee82a00994"
 
     def install
       bin.install "ticker"
@@ -19,7 +19,7 @@ class Ticker < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/hwyll/ticker/releases/download/v0.0.1/ticker-0.0.1-mac-arm64.tar.gz"
-    sha256 "5df69b48f7654b59ff55d6202f45de8f2c74be0327a4fc9fb583f9c58a8af9c5"
+    sha256 "193584bafcb77762f3f5cd2b4998618d967c6d876300d18b72a3d4e1168c73e7"
 
     def install
       bin.install "ticker"
