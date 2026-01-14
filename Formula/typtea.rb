@@ -5,21 +5,21 @@
 class Typtea < Formula
   desc "Terminal based typing test"
   homepage "https://github.com/hwyll/typtea"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/hwyll/typtea/releases/download/v0.0.1/typtea-0.0.1-mac-amd64.tar.gz"
-    sha256 "eb99c047dd774d711351f5d32018af727ec8bd6dfe18c58f4424c42a8ad2e4bc"
+    url "https://github.com/hwyll/typtea/releases/download/v0.0.2/typtea-0.0.2-mac-amd64.tar.gz"
+    sha256 "6882d911d186eb03ef4c864b3e21a4c57b3a7d68d24fb6c093978d999c57aec4"
 
     def install
       bin.install "typtea"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/hwyll/typtea/releases/download/v0.0.1/typtea-0.0.1-mac-arm64.tar.gz"
-    sha256 "067ba9c8e1a6ba5cce57ddac5d20b84142b0af3fc54a5e4ca98e88de6160f407"
+    url "https://github.com/hwyll/typtea/releases/download/v0.0.2/typtea-0.0.2-mac-arm64.tar.gz"
+    sha256 "cfdda35766686903e9ccc5997badca4ce34e43e60a80626e116dd7619f3bcf62"
 
     def install
       bin.install "typtea"
